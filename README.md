@@ -19,3 +19,6 @@ import 'hsc-ui-vue2/dist/css/demo.css';
 import { Demo } from 'hsc-ui-vue2';
 Vue.use(Demo);
 ```
+
+### 文档
+[hsc-ui-vue2 文档](https://hesichuan.github.io/hsc-ui-vue2/)
