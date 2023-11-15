@@ -1,24 +1,21 @@
-# hsc-ui
+# hsc-ui-vue2 组件库
 
-## Project setup
-```
-yarn install
-```
+### 快速开始
 
-### Compiles and hot-reloads for development
-```
-yarn serve
+#### 1.安装组件库
+```bash
+npm i hsc-ui-vue2
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+#### 2.引用组件库
+```javascript
+// 全部引入
+import 'hsc-ui-vue2/dist/css/index.css';
+import HSCUI from 'hsc-ui-vue2';
+Vue.use(HSCUI)
 
-### Lints and fixes files
+// 按需引入
+import 'hsc-ui-vue2/dist/css/demo.css';
+import { Demo } from 'hsc-ui-vue2';
+Vue.use(Demo);
 ```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -1,0 +1,30 @@
+.hsc-descriptions {
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #303133;
+  padding: 20px;
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  &__title {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  &__body {
+    width: 100%;
+    color: #606266;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(0, 1fr));
+  }
+}
+.button {
+  background-color: #409eff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
